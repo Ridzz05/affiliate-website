@@ -2,5 +2,4 @@ Sesuai dengan namanya Repositori ini berisi kode HTML dan CSS yang menggunakan f
 Mungkin teman teman bisa bantu dalam kontribusi website sederhana ini
 
 
-BTW website ini diperuntukkan untuk teman teman yang mau Promosi atau melakukan affiliate produk dengan beberapa kategori dan Sub Kategori
-....
+BTW website ini diperuntukkan untuk teman teman yang mau Promosi atau melakukan affiliate produk dengan beberapa kategori dan Sub Kategori didalamnya.
