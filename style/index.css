@@ -1,0 +1,97 @@
+.floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-icon .main-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.floating-icon .child-options {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.floating-icon .child-option {
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.floating-icon .child-option:hover {
+    transform: scale(1.1);
+}
+
+.floating-icon .child-option img {
+    width: 30px;
+    height: 30px;
+}
+.active {
+    background-color: #3b82f6;
+    /* Blue */
+    color: white;
+    border: 2px solid #1d4ed8;
+    /* Darker blue for border */
+}
+
+/* 3D effect on click */
+.product-img {
+    transition: transform 0.2s ease;
+}
+
+.product-img:active {
+    transform: scale(1.05) rotateX(10deg) rotateY(10deg);
+}
+
+/* Hide/show for burger menu */
+#menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #menu {
+        display: block;
+    }
+
+    #menu-items {
+        display: none;
+    }
+} 
+    /* 3D Slide Effect */
+#productImage {
+transform: perspective(1000px) rotateY(0deg);
+}
+
+.slide {
+transform: perspective(1000px) rotateY(90deg);
+}
+
+.slide-back {
+transform: perspective(1000px) rotateY(0deg);
+}
+.floating-icon .child-option img {
+width: 30px;
+height: 30px;
+object-fit: contain;
+}
